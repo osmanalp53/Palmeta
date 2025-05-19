@@ -65,7 +65,17 @@ pip install -r requirements.txt
 ```
 
 ---
+## 🛠️ Python Dosyalarının Görevleri
 
+| Dosya Adı | Görev Açıklaması |
+|-----------|------------------|
+| `extract_dataset_features.py` | Görsellerden öznitelik çıkarımı |
+| `region_features.py` | Elin bölgesel analizini yapar |
+| `train_region_model.py` | Görsel öznitelik çıkarıcı modelin eğitimi |
+| `train_transformer.py` | Hayat hikayesi üreten transformer modelin eğitimi |
+| `generate_text.py` | Eğitilen transformer ile yazı üretimi yapar |
+| `predict_from_image.py` | El görselinden doğrudan hayat hikayesi üretimi |
+ 
 ## 👤 Geliştirici
 
 **Osman Alp Polatoğlu**  
